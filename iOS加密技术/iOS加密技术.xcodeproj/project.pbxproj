@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2D14FE1DD3FD62007854BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D14FD1DD3FD62007854BF /* main.m */; };
+		EC2D15011DD3FD62007854BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D15001DD3FD62007854BF /* AppDelegate.m */; };
+		EC2D15041DD3FD62007854BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D15031DD3FD62007854BF /* ViewController.m */; };
+		EC2D15071DD3FD62007854BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2D15051DD3FD62007854BF /* Main.storyboard */; };
+		EC2D15091DD3FD62007854BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2D15081DD3FD62007854BF /* Assets.xcassets */; };
+		EC2D150C1DD3FD62007854BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2D150A1DD3FD62007854BF /* LaunchScreen.storyboard */; };
+		EC2D15171DD3FD62007854BF /* iOS____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D15161DD3FD62007854BF /* iOS____Tests.m */; };
+		EC2D15221DD3FD62007854BF /* iOS____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D15211DD3FD62007854BF /* iOS____UITests.m */; };
+		EC2D15331DD40FC6007854BF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC2D15321DD40FC6007854BF /* 1.jpg */; };
+		EC2D15391DD41554007854BF /* NSString+MySecurities.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D15381DD41554007854BF /* NSString+MySecurities.m */; };
+		EC2D153C1DD441EF007854BF /* NSData+AES256_Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D153B1DD441EF007854BF /* NSData+AES256_Encrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2D15131DD3FD62007854BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2D14F11DD3FD62007854BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2D14F81DD3FD62007854BF;
+			remoteInfo = "iOS加密技术";
+		};
+		EC2D151E1DD3FD62007854BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2D14F11DD3FD62007854BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2D14F81DD3FD62007854BF;
+			remoteInfo = "iOS加密技术";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2D14F91DD3FD62007854BF /* iOS加密技术.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS加密技术.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2D14FD1DD3FD62007854BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC2D14FF1DD3FD62007854BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC2D15001DD3FD62007854BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC2D15021DD3FD62007854BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC2D15031DD3FD62007854BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC2D15061DD3FD62007854BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2D15081DD3FD62007854BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2D150B1DD3FD62007854BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC2D150D1DD3FD62007854BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2D15121DD3FD62007854BF /* iOS加密技术Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS加密技术Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2D15161DD3FD62007854BF /* iOS____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS____Tests.m"; sourceTree = "<group>"; };
+		EC2D15181DD3FD62007854BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2D151D1DD3FD62007854BF /* iOS加密技术UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS加密技术UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2D15211DD3FD62007854BF /* iOS____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS____UITests.m"; sourceTree = "<group>"; };
+		EC2D15231DD3FD62007854BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2D15321DD40FC6007854BF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		EC2D15371DD41554007854BF /* NSString+MySecurities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MySecurities.h"; sourceTree = "<group>"; };
+		EC2D15381DD41554007854BF /* NSString+MySecurities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MySecurities.m"; sourceTree = "<group>"; };
+		EC2D153A1DD441EF007854BF /* NSData+AES256_Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256_Encrypt.h"; sourceTree = "<group>"; };
+		EC2D153B1DD441EF007854BF /* NSData+AES256_Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256_Encrypt.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2D14F61DD3FD62007854BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2D150F1DD3FD62007854BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2D151A1DD3FD62007854BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2D14F01DD3FD62007854BF = {
+			isa = PBXGroup;
+			children = (
+				EC2D14FB1DD3FD62007854BF /* iOS加密技术 */,
+				EC2D15151DD3FD62007854BF /* iOS加密技术Tests */,
+				EC2D15201DD3FD62007854BF /* iOS加密技术UITests */,
+				EC2D14FA1DD3FD62007854BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2D14FA1DD3FD62007854BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D14F91DD3FD62007854BF /* iOS加密技术.app */,
+				EC2D15121DD3FD62007854BF /* iOS加密技术Tests.xctest */,
+				EC2D151D1DD3FD62007854BF /* iOS加密技术UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2D14FB1DD3FD62007854BF /* iOS加密技术 */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D15321DD40FC6007854BF /* 1.jpg */,
+				EC2D14FF1DD3FD62007854BF /* AppDelegate.h */,
+				EC2D15001DD3FD62007854BF /* AppDelegate.m */,
+				EC2D15021DD3FD62007854BF /* ViewController.h */,
+				EC2D15031DD3FD62007854BF /* ViewController.m */,
+				EC2D15371DD41554007854BF /* NSString+MySecurities.h */,
+				EC2D15381DD41554007854BF /* NSString+MySecurities.m */,
+				EC2D153A1DD441EF007854BF /* NSData+AES256_Encrypt.h */,
+				EC2D153B1DD441EF007854BF /* NSData+AES256_Encrypt.m */,
+				EC2D15051DD3FD62007854BF /* Main.storyboard */,
+				EC2D15081DD3FD62007854BF /* Assets.xcassets */,
+				EC2D150A1DD3FD62007854BF /* LaunchScreen.storyboard */,
+				EC2D150D1DD3FD62007854BF /* Info.plist */,
+				EC2D14FC1DD3FD62007854BF /* Supporting Files */,
+			);
+			path = "iOS加密技术";
+			sourceTree = "<group>";
+		};
+		EC2D14FC1DD3FD62007854BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D14FD1DD3FD62007854BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC2D15151DD3FD62007854BF /* iOS加密技术Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D15161DD3FD62007854BF /* iOS____Tests.m */,
+				EC2D15181DD3FD62007854BF /* Info.plist */,
+			);
+			path = "iOS加密技术Tests";
+			sourceTree = "<group>";
+		};
+		EC2D15201DD3FD62007854BF /* iOS加密技术UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D15211DD3FD62007854BF /* iOS____UITests.m */,
+				EC2D15231DD3FD62007854BF /* Info.plist */,
+			);
+			path = "iOS加密技术UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2D14F81DD3FD62007854BF /* iOS加密技术 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2D15261DD3FD62007854BF /* Build configuration list for PBXNativeTarget "iOS加密技术" */;
+			buildPhases = (
+				EC2D14F51DD3FD62007854BF /* Sources */,
+				EC2D14F61DD3FD62007854BF /* Frameworks */,
+				EC2D14F71DD3FD62007854BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS加密技术";
+			productName = "iOS加密技术";
+			productReference = EC2D14F91DD3FD62007854BF /* iOS加密技术.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2D15111DD3FD62007854BF /* iOS加密技术Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2D15291DD3FD62007854BF /* Build configuration list for PBXNativeTarget "iOS加密技术Tests" */;
+			buildPhases = (
+				EC2D150E1DD3FD62007854BF /* Sources */,
+				EC2D150F1DD3FD62007854BF /* Frameworks */,
+				EC2D15101DD3FD62007854BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2D15141DD3FD62007854BF /* PBXTargetDependency */,
+			);
+			name = "iOS加密技术Tests";
+			productName = "iOS加密技术Tests";
+			productReference = EC2D15121DD3FD62007854BF /* iOS加密技术Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC2D151C1DD3FD62007854BF /* iOS加密技术UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2D152C1DD3FD62007854BF /* Build configuration list for PBXNativeTarget "iOS加密技术UITests" */;
+			buildPhases = (
+				EC2D15191DD3FD62007854BF /* Sources */,
+				EC2D151A1DD3FD62007854BF /* Frameworks */,
+				EC2D151B1DD3FD62007854BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2D151F1DD3FD62007854BF /* PBXTargetDependency */,
+			);
+			name = "iOS加密技术UITests";
+			productName = "iOS加密技术UITests";
+			productReference = EC2D151D1DD3FD62007854BF /* iOS加密技术UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2D14F11DD3FD62007854BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "高飞";
+				TargetAttributes = {
+					EC2D14F81DD3FD62007854BF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EC2D15111DD3FD62007854BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC2D14F81DD3FD62007854BF;
+					};
+					EC2D151C1DD3FD62007854BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC2D14F81DD3FD62007854BF;
+					};
+				};
+			};
+			buildConfigurationList = EC2D14F41DD3FD62007854BF /* Build configuration list for PBXProject "iOS加密技术" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2D14F01DD3FD62007854BF;
+			productRefGroup = EC2D14FA1DD3FD62007854BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2D14F81DD3FD62007854BF /* iOS加密技术 */,
+				EC2D15111DD3FD62007854BF /* iOS加密技术Tests */,
+				EC2D151C1DD3FD62007854BF /* iOS加密技术UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2D14F71DD3FD62007854BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D150C1DD3FD62007854BF /* LaunchScreen.storyboard in Resources */,
+				EC2D15331DD40FC6007854BF /* 1.jpg in Resources */,
+				EC2D15091DD3FD62007854BF /* Assets.xcassets in Resources */,
+				EC2D15071DD3FD62007854BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2D15101DD3FD62007854BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2D151B1DD3FD62007854BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2D14F51DD3FD62007854BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D15041DD3FD62007854BF /* ViewController.m in Sources */,
+				EC2D15011DD3FD62007854BF /* AppDelegate.m in Sources */,
+				EC2D153C1DD441EF007854BF /* NSData+AES256_Encrypt.m in Sources */,
+				EC2D15391DD41554007854BF /* NSString+MySecurities.m in Sources */,
+				EC2D14FE1DD3FD62007854BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2D150E1DD3FD62007854BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D15171DD3FD62007854BF /* iOS____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2D15191DD3FD62007854BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D15221DD3FD62007854BF /* iOS____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2D15141DD3FD62007854BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2D14F81DD3FD62007854BF /* iOS加密技术 */;
+			targetProxy = EC2D15131DD3FD62007854BF /* PBXContainerItemProxy */;
+		};
+		EC2D151F1DD3FD62007854BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2D14F81DD3FD62007854BF /* iOS加密技术 */;
+			targetProxy = EC2D151E1DD3FD62007854BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2D15051DD3FD62007854BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2D15061DD3FD62007854BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2D150A1DD3FD62007854BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2D150B1DD3FD62007854BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2D15241DD3FD62007854BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC2D15251DD3FD62007854BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2D15271DD3FD62007854BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS加密技术/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.iOS----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC2D15281DD3FD62007854BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS加密技术/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.iOS----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC2D152A1DD3FD62007854BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS加密技术Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.iOS----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS加密技术.app/iOS加密技术";
+			};
+			name = Debug;
+		};
+		EC2D152B1DD3FD62007854BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS加密技术Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.iOS----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS加密技术.app/iOS加密技术";
+			};
+			name = Release;
+		};
+		EC2D152D1DD3FD62007854BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS加密技术UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.iOS----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS加密技术";
+			};
+			name = Debug;
+		};
+		EC2D152E1DD3FD62007854BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS加密技术UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.iOS----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS加密技术";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2D14F41DD3FD62007854BF /* Build configuration list for PBXProject "iOS加密技术" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2D15241DD3FD62007854BF /* Debug */,
+				EC2D15251DD3FD62007854BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2D15261DD3FD62007854BF /* Build configuration list for PBXNativeTarget "iOS加密技术" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2D15271DD3FD62007854BF /* Debug */,
+				EC2D15281DD3FD62007854BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2D15291DD3FD62007854BF /* Build configuration list for PBXNativeTarget "iOS加密技术Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2D152A1DD3FD62007854BF /* Debug */,
+				EC2D152B1DD3FD62007854BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2D152C1DD3FD62007854BF /* Build configuration list for PBXNativeTarget "iOS加密技术UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2D152D1DD3FD62007854BF /* Debug */,
+				EC2D152E1DD3FD62007854BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2D14F11DD3FD62007854BF /* Project object */;
+}
